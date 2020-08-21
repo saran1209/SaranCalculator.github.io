@@ -13,13 +13,13 @@ table{
     margin:auto;
 }
 input{
-    font-size: 24px;
+    font-size: 26px;
     width: auto;
     height: 81px;
     border:0px ;
     border-radius: 0px;
     font-family: "Inter", sans-serif;
-   background:white;
+    background:white;
     
 }
 
@@ -50,7 +50,10 @@ button{
     padding: 0px 0px;
     border-radius: 0px;
     height: 442px;
-   
+
+}
+p{
+    font-size: 0.7rem;
 }
 button:hover{
     background:white;
@@ -61,5 +64,17 @@ button:hover{
 
     .site-main-wrapper{
       overflow-x: hidden;
+    
     }
+    input{
+        width: 99%;
+    }
+    .calculator{
+        width: 96%;
+    }
+    p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
 }
