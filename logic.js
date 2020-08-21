@@ -2,7 +2,11 @@ let screen = document.getElementById('screen');
 
 let buttons = document.querySelectorAll('button');
 let screenValue = "";
-let clear ="";
+const inputEl = document.querySelector('input');
+
+inputEl.addEventListener('input', (event) => {
+  event.target.value = '';
+});
 for(item of buttons){
     item.addEventListener('click', (e)=>{
         buttonText = e.target.innerText;
