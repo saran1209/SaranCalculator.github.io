@@ -37,7 +37,7 @@ for(item of buttons){
         }
         
         else if(buttonText== 'C'){
-            screenValue = "";
+            screenValue = screenValue.substring(0, screenValue.length - 1);
             screen.value = screenValue;
         
         
@@ -52,7 +52,8 @@ for(item of buttons){
             screen.value = screenValue ;
         }
         else if(buttonText=='AC'){
-            screenValue = screenValue.substring(0, screenValue.length - 1);
+            
+          screenValue = "";
             screen.value = screenValue;
         }
         else {
