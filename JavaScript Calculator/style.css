@@ -1,0 +1,64 @@
+body{
+
+background:url("images/background.jpeg") no-repeat;
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Do Hyeon', sans-serif;
+color: white;
+}
+.container{
+   text-align:center;
+}
+table{
+    margin:auto;
+}
+input{
+    font-size: 24px;
+    width: auto;
+    height: 81px;
+    border:0px ;
+    border-radius: 0px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+       
+.evals{
+    background:linear-gradient(#f3626d,#fe6e6d, #ffb16f);
+    border-radius: 50%;
+    border-collapse: collapse;
+    width: 50px;
+    height: 50px;
+}
+button{
+
+    font-size: 18px;
+    
+    color: ivory;
+    width: 80px;
+    height: 55px;
+    border: 0px solid black;
+    border-radius: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));
+}
+.calculator{
+    display: inline-block;
+    border: 0px;
+    background: url(images/13337.jpg) no-repeat;
+    background-position: center;
+    padding: 0px 0px;
+    border-radius: 0px;
+    height: 442px;
+   
+}
+button:hover{
+    background:white;
+    color: black;
+    
+}
+@media   (max-width:576px) {
+
+    .site-main-wrapper{
+      overflow-x: hidden;
+    }
+}
