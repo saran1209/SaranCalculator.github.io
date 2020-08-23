@@ -14,7 +14,7 @@ table{
 }
 input{
     font-size: 26px;
-    width: auto;
+    width: -webkit-fill-available;
     height: 81px;
     border:0px ;
     border-radius: 0px;
@@ -66,9 +66,7 @@ button:hover{
       overflow-x: hidden;
     
     }
-    input{
-        width: 99%;
-    }
+
     .calculator{
         width: 96%;
     }
