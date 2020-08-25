@@ -1,3 +1,5 @@
+*{touch-action: manipulation;
+}
 body{
 
 background:url("images/background.jpeg") no-repeat;
